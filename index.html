@@ -1,128 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Personal portfolio of Sri Hruday Preetham Perika, Java Backend Developer specializing in Spring Boot and Microservices.">
-    <meta name="robots" content="index, follow">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hruday Preetham | Java Backend Developer Resume</title>
 
-    <title>Sri Hruday Preetham Perika | Java Backend Developer</title>
-    <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f6f8;
+      color: #333;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    h1 {
+      margin-bottom: 5px;
+    }
+    h2 {
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 5px;
+      margin-top: 30px;
+    }
+    .project {
+      background: #fff;
+      padding: 15px;
+      margin-top: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    ul {
+      margin: 10px 0;
+    }
+    li {
+      margin-bottom: 6px;
+    }
+    a {
+      color: #0073b1;
+      text-decoration: none;
+    }
+  </style>
 </head>
 
 <body>
+<div class="container">
 
 <header>
-    <h1>Sri Hruday Preetham Perika</h1>
-    <p>Java Backend Developer | Spring Boot | Microservices</p>
-    <p>
-        <a href="https://github.com/Hruday10" target="_blank">GitHub</a> |
-        <a href="https://www.linkedin.com/in/hrudaypreetham" target="_blank">LinkedIn</a> |
-        <a href="mailto:hrudaypreethamperika@gmail.com">Email</a>
-    </p>
+  <h1>Sri Hruday Preetham Perika</h1>
+  <p>Java Backend Developer | Telecom Microservices | Spring Boot | Kafka</p>
+  <p><strong>Java Backend Developer with 1 year of experience building production-grade telecom microservices and event-driven systems.</strong></p>
+  <p>
+    <a href="https://www.linkedin.com/in/hrudaypreetham">LinkedIn</a> |
+    <a href="mailto:hrudaypreethamperika@gmail.com">Email</a> |
+    <a href="tel:+918790208445">Phone</a>
+  </p>
 </header>
 
 <section>
-    <h2>About Me</h2>
-    <p>
-        Java Backend Developer with experience in building scalable and
-        maintainable REST APIs using Spring Boot. Strong knowledge of
-        microservices architecture, database-driven applications, and
-        clean backend design principles.
-    </p>
+  <h2>About Me</h2>
+  <p>
+    I build backend systems that handle real-time telecom operations such as SIM lifecycle management, VAS provisioning, and subscriber workflows.
+  </p>
+  <p>
+    My work focuses on scalable microservices, event-driven processing, and low-latency backend systems using Java, Spring Boot, Kafka, and MySQL.
+  </p>
+  <p>
+    I prioritize reliability, clean architecture, and performance optimization to ensure systems hold up under high-volume production load.
+  </p>
 </section>
 
 <section>
-    <h2>Technical Focus</h2>
+  <h2>Technical Focus</h2>
+  <ul>
+    <li>Java, Spring Boot, Microservices</li>
+    <li>REST APIs & API Design</li>
+    <li>Kafka, RabbitMQ (Event-Driven Systems)</li>
+    <li>MySQL, SQL Optimization</li>
+    <li>Distributed Systems & Backend Architecture</li>
+    <li>Git, Linux, SonarQube</li>
+  </ul>
+</section>
+
+<section>
+  <h2>What I Deliver</h2>
+  <ul>
+    <li>Low-latency backend systems for real-time processing</li>
+    <li>Reliable event-driven architectures</li>
+    <li>Scalable microservices handling high-volume workloads</li>
+    <li>Clean, maintainable, production-ready backend code</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Projects</h2>
+
+  <div class="project">
+    <h3>Centralized VAS Provisioning System (CVPS)</h3>
+    <p><strong>Technologies:</strong> Java, Spring Boot, REST, SMPP, SS7, MySQL</p>
+
+    <p><strong>System Design:</strong> Microservices-based architecture with asynchronous processing for subscription lifecycle events.</p>
+
+    <p><strong>Impact:</strong></p>
     <ul>
-        <li>Java, Spring Boot, Spring Security</li>
-        <li>REST APIs, Microservices Architecture</li>
-        <li>JPA, Hibernate, MySQL</li>
-        <li>Git, GitLab, Linux</li>
+      <li>Handled high-volume subscriber operations (thousands of events/min)</li>
+      <li>Reduced billing failures by ~40% using async processing</li>
+      <li>Improved billing accuracy with retry and validation mechanisms</li>
+      <li>Automated CDR reconciliation, reducing manual effort</li>
     </ul>
+  </div>
+
+  <div class="project">
+    <h3>Dynamic SIM Allocation System</h3>
+    <p><strong>Technologies:</strong> Java, Spring Boot, RabbitMQ, SQL</p>
+
+    <p><strong>System Design:</strong> Distributed microservices with RabbitMQ-based event-driven communication.</p>
+
+    <p><strong>Impact:</strong></p>
+    <ul>
+      <li>Reduced signaling response latency by ~35%</li>
+      <li>Ensured 99.9%+ consistency across distributed telecom systems</li>
+      <li>Enabled real-time processing of subscriber mobility events</li>
+    </ul>
+  </div>
+
+  <div class="project">
+    <h3>SIM Inventory Management System</h3>
+    <p><strong>Technologies:</strong> Java, Spring Boot, REST APIs, MySQL</p>
+
+    <p><strong>System Design:</strong> Transaction-safe backend with atomic operations for data consistency.</p>
+
+    <p><strong>Impact:</strong></p>
+    <ul>
+      <li>Achieved zero data inconsistency in SIM swap operations</li>
+      <li>Maintained 100% subscriber-to-SIM mapping accuracy</li>
+      <li>Improved API reliability with structured validation and error handling</li>
+    </ul>
+  </div>
+
 </section>
 
-<!-- <section>
-    <h2>Projects</h2>
-
-    <div class="project">
-    <h3>Employee Attrition Prediction System</h3>
-    <p>
-        Machine learning–based system that predicts employee attrition and
-        estimates exit timelines using classification and regression models,
-        deployed as a Flask web application for real-time predictions.
-    </p>
-    <p><strong>Tools Used:</strong> Flask, Scikit-learn, Pandas, NumPy</p>
-    <a href="https://github.com/Hruday10/employeeperformance" target="_blank">
-        View Source Code on GitHub
-    </a>
 </div>
-
-
-</section> -->
-
-<section>
-    <h2>Projects</h2>
-
-    <div class="project-card">
-        <!-- <img src="./assets/projects/image.png" alt="Employee Attrition Prediction"> -->
-
-        <!-- <img src="./assets/projects/image.png"
-     alt="Employee Attrition Prediction System"
-     loading="lazy"> -->
-
-
-        <div class="project-content">
-            <!-- <h3>Employee Performance Prediction System</h3> -->
-             <h3>Employee Attrition Prediction System</h3>
-
-            <p><strong>Role:</strong> Developer</p>
-            <p><strong>Technologies:</strong> Flask, Pandas, NumPy, HTML, CSS, Python</p>
-
-            <p>
-                <strong>Description:</strong>
-                Built a machine learning system to predict employee attrition
-                using classification models and deployed it as a web application.
-            </p>
-
-            <p>
-                <strong>My Contribution:</strong>
-              Designed and trained machine learning models, built the user
-              interface using HTML and CSS, and integrated prediction logic
-              with the web application.
-
-            </p>
-
-            <p>
-                <strong>Outcome:</strong>
-                Enabled HR teams to identify high-risk employees and make
-                data-driven retention decisions.
-            </p>
-
-            <a href="https://github.com/Hruday10/employeeperformance" target="_blank">
-                🔗 View Source Code
-            </a>
-        </div>
-    </div>
-</section>
-
-<section>
-    <h2>Contact</h2>
-    <p>
-        📩 Email:
-        <a href="mailto:hrudaypreethamperika@gmail.com">
-            hrudaypreethamperika@gmail.com
-        </a>
-    </p>
-        <p>
-        📞 Mobile Number: +91 8790208445
-        <!-- <a href="mailto:hrudaypreethamperika@gmail.com"> </a> -->
-     </p>
-</section>
-
-<footer>
-    <p>© 2026 Sri Hruday Preetham Perika</p>
-</footer>
-
 </body>
 </html>
